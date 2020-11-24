@@ -3,11 +3,11 @@ public class mainClass {
         int iteration = 10;
 
         Agent agent1 = new Agent("Agent 1");
-        agent1.AddVoteSystem(new SystemVote_CooperateThenBetrayAtEnd());
+        agent1.AddVoteSystem(new SystemVote_AlwaysCooperateMultiPlotTwist());
         VoteAnswer previousAgent1Answer = null;
 
         Agent agent2 = new Agent("Agent 2");
-        agent2.AddVoteSystem(new SystemVote_AlwaysCooperateTreator());
+        agent2.AddVoteSystem(new SystemVote_AlwaysCooperateMultiPlotTwist());
         VoteAnswer previousAgent2Answer = null;
 
 
